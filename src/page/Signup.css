@@ -1,0 +1,44 @@
+.container {
+    max-width: 400px;
+    margin: 20 auto;
+    padding: 20px;
+}
+  
+label {
+    display: block;
+    font-weight: bold;
+}
+  
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+  
+/* Styles for error messages */
+span {
+    color: #000000;
+    font-size: 14px;
+    margin-top: 5px;
+    display: block;
+}
+
+.submit-container {
+    display: flex;
+    gap: 20px;
+    background: #0e0ca0;
+    color: #ffff;
+    justify-content: center;
+}
+
+.submit {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 70;
+    cursor: pointer;
+}

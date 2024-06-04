@@ -1,0 +1,69 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+}  
+.logo {
+    margin-left: 70px;
+}
+.introduce {
+    margin-left: 80px;
+    font-weight: bold;
+    font-size: 20px;
+    gap:10px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+  
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 15px;
+    gap: 30px;
+}
+  
+.sign-up span {
+    color:#1f1fee;
+    cursor: pointer;
+}
+
+.forgot{
+    cursor: pointer;
+}
+  
+.submit-container {
+    display: flex;
+    gap: 20px;
+    background: #0e0ca0;
+    color: #ffff;
+    justify-content: center;
+}
+
+.submit {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 70;
+    cursor: pointer;
+}
+
+
+
+
+
